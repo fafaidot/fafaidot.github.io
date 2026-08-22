@@ -625,7 +625,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                 <div className="min-w-0">
                   <div className="flex items-center gap-1.5">
                     <h3 className="font-bold text-sm text-white truncate">{userProfile.name}</h3>
-                    <Lock className="w-3 h-3 text-neutral-500" title="Name locked permanently" />
+                    <span title="Name locked permanently">
+                      <Lock className="w-3 h-3 text-neutral-500" />
+                    </span>
                   </div>
                   <p className="text-xs text-neutral-400 font-mono">@{userProfile.username}</p>
                   <span className="text-[10px] px-2 py-0.5 rounded bg-[#FF6B00]/20 text-[#FF6B00] font-semibold inline-block mt-1">
