@@ -1,0 +1,6 @@
+{
+  "name": "Hoop Master - Basketball Training & Drills",
+  "description": "Mobile-optimized basketball training and drill companion with animated 60FPS court visualizer, Firebase authentication, XP rank progression, routine builder, and AI workout generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
